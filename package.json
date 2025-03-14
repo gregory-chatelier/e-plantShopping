@@ -6,9 +6,9 @@
   "homepage": "https://gregory-chatelier.github.io/e-plantShopping",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/e-plantShopping/",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite build --base=/e-plantShopping/; vite preview --host",
+    "preview": "vite build && vite preview --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
